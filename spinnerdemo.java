@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     mySpinner = findViewById(R.id.spinner_1); 
     mySpinner.setOnItemSelectedListener(this);
     ArrayAdapter myItems = new ArrayAdapter(this,android.R.layout.simple_spinner_item,myArray); 
-    myItems.setDropDownViewResource(android.R.layout.simple_dropdown_spinner_item); 
+    myItems.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); 
     mySpinner.setAdapter(myItems);
   }
                      }
